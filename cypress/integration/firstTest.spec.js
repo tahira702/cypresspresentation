@@ -6,6 +6,7 @@
             cy.visit('/')
             cy.contains('Forms').click()
             cy.contains('Form Layouts').click()
+            cy.wait(5000)
             cy.get('input') //Tag name
             cy.get('#inputEmail1').type('taka@ciklum.com') // by Id
             cy.get('.input-full-width') // by Class name
