@@ -3,7 +3,7 @@
 
 
 
-    describe('Demo Test inside', ()=> {
+    describe('locators example Test inside', ()=> {
         it('my first Test', ()=>{
             cy.visit('/')
             cy.contains('Forms').click()
@@ -22,6 +22,21 @@
             cy.get('#inputEmail1').parents('form').find('button').click({ force: true })
             
             
+            
+        })
+        it('Radio button selection test' , ()=>{
+
+        })
+        it('Check box selection test' , ()=>{
+            
+        })
+        it('dropdown selection test' , ()=>{
+            
+        })
+        it('Table new record insertion test' , ()=>{
+            
+        })
+        it('Table updating ol record test' , ()=>{
             
         })
 
